@@ -1,0 +1,35 @@
+export const SKILLS = [
+  { id: 1, icon: 'FaHtml5', iconClass: 'text-orange-500', title: 'HTML' },
+  { id: 2, icon: 'FaCss3Alt', iconClass: 'text-blue-500', title: 'CSS' },
+  { id: 3, icon: 'FaJsSquare', iconClass: 'text-yellow-400', title: 'JavaScript' },
+  { id: 4, icon: 'FaReact', iconClass: 'text-blue-400', title: 'React' },
+  { id: 5, icon: 'SiTailwindcss', iconClass: 'text-sky-400', title: 'Tailwind' },
+  { id: 6, icon: 'SiNextdotjs', iconClass: 'text-white', title: 'Next.js' },
+  { id: 7, icon: 'FaPython', iconClass: 'text-yellow-500', title: 'Python' },
+  { id: 8, icon: 'SiPostgresql', iconClass: 'text-sky-700', title: 'SQL' },
+  { id: 9, icon: 'SiFlutter', iconClass: 'text-cyan-400', title: 'Flutter' },
+  { id: 10, icon: 'FaNodeJs', iconClass: 'text-green-500', title: 'Node.js' },
+  { id: 11, icon: 'SiGraphql', iconClass: 'text-pink-500', title: 'GraphQL' },
+  { id: 12, icon: 'FaDocker', iconClass: 'text-blue-500', title: 'Docker' },
+  { id: 13, icon: 'SiPostman', iconClass: 'text-orange-500', title: 'Postman' },
+  { id: 14, icon: 'DiVisualstudio', iconClass: 'text-blue-400', title: 'VS Code' },
+  { id: 15, icon: 'FaGithub', iconClass: 'text-gray-400', title: 'GitHub' },
+  { id: 16, icon: 'SiFlask', iconClass: 'text-gray-200', title: 'Flask' },
+  { id: 17, icon: 'FaCogs', iconClass: 'text-green-400', title: 'REST API' },
+];
+
+export const SKILL_SLIDER_SETTINGS = {
+  dots: true,
+  infinite: true,
+  speed: 800,
+  slidesToShow: 5,
+  slidesToScroll: 2,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  responsive: [
+    { breakpoint: 1280, settings: { slidesToShow: 4 } },
+    { breakpoint: 1024, settings: { slidesToShow: 3 } },
+    { breakpoint: 640, settings: { slidesToShow: 2 } },
+    { breakpoint: 480, settings: { slidesToShow: 1 } },
+  ],
+};
